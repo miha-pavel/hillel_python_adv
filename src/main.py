@@ -4,6 +4,7 @@ def create_list_comprehantion(old_list):
 
 def main():
     old_list = [0, 1, 2, 3, 4, 5, 6]
+    print('old_list: ', old_list)
     new_list = create_list_comprehantion(old_list)
     print('new_list: ', new_list)
 
